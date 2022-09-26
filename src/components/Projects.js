@@ -14,11 +14,11 @@ function Projects() {
           </div>
         </div>
         </a>
-        <a className='project_link' href='https://github.com/ErikShively/PortfolioSite'>
+        <a className='project_link' href='https://github.com/ErikShively/ErikShively.github.io'>
         <div className='projects_grid_entry'>
           <img className='project_image' src='/logo512.png' />
           <div className='project_body'>
-            A ReactJS website to augment my portfolio and showcase some web devlopment skills.
+            A ReactJS website to supplement my portfolio and showcase some web devlopment skills.
           </div>
         </div>
         </a>
