@@ -30,7 +30,7 @@ function Projects() {
           </div>
         </div>
         </a>
-        <a className='project_link' href='https://github.com/ErikShively/'>
+        <a className='project_link' href='https://github.com/ErikShively/static_bot'>
         <div className='projects_grid_entry'>
           <img className='project_image' src='/Unofficial_JavaScript_logo_2.svg.png' />
           <div className='project_body'>
