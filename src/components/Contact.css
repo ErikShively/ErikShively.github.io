@@ -1,0 +1,26 @@
+.contact{
+  display: grid;
+  flex:1;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 0.5fr 1.5fr 1fr;
+  gap:5px;
+  overflow: hidden;
+  min-height: 0;
+  min-width: 0;
+}
+.contact_title{
+  display: flex;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-content: flex-start;
+  border-bottom: solid 2px #bbb;
+}
+.contact_title_text{
+  align-self: flex-end;
+  padding: 0;
+  margin: 0;
+}
+.contact_body{
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
