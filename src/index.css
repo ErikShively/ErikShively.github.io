@@ -20,9 +20,13 @@ h1{
 }
 
 button {
+  min-width: 30px;
+  min-height: 50px;
   background-color: #AAA;
   border-style: none;
-  border-radius: 20px;
+  /* border-width: 1px;
+  border-color: black; */
+  /* border-radius: 20px; */
   color: #FFF;
   font-size: 1rem;
   transition-duration: 300ms;
