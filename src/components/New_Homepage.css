@@ -2,7 +2,7 @@
   display: grid;
   width: 100vw;
   min-height: 100vh;
-  background-color: #c0b59e;
+  background-color: #d1d0cd;
   grid-template-columns: 1fr 1200px 1fr;
   grid-template-rows: 1fr 80vh 4fr;
 }

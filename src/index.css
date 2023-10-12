@@ -22,21 +22,19 @@ h1{
 button {
   min-width: 30px;
   min-height: 65px;
-  background-color: #AAA;
+  background-color: #888888;
   border-style: solid;
   border-width: 0px 0px 1px 0px;
   border-color: black;
-  /* border-radius: 20px; */
-  color: #FFF;
-  font-size: 1rem;
+  color:#eee;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
   transition-duration: 300ms;
 }
 
 button:hover {
-  background-color: #2244FF;
-  /* text-shadow: -1px 1px 0 #EEE, 1px 1px 0 #EEE, 1px -1px 0 #EEE, -1px -1px 0 #EEE; */
-  /* font-weight: 500; */
-  /* color:#444; */
+  background-color: #3447b3;
 }
 
 .page {
