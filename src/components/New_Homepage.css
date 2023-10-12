@@ -2,12 +2,11 @@
   display: grid;
   width: 100vw;
   min-height: 100vh;
-  /* background-color: turquoise; */
+  background-color: #c0b59e;
   grid-template-columns: 1fr 1200px 1fr;
-  grid-template-rows: 80vh 1fr;
+  grid-template-rows: 1fr 80vh 4fr;
 }
 .overview{
-  /* background-color: red; */
   max-width: 100%;
   min-height: 100%;
   padding-left: 1rem;
@@ -17,12 +16,12 @@
 .homepage{
   display: grid;
   grid-column: 2/3;
-  grid-row: 1/2;
-  /* min-width: 1200px; */
-  /* background-color: yellowgreen; */
+  grid-row: 2/3;
+  background-color: #eee;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(3,1fr);
   box-shadow: 1px 0px 10px, -1px 0px 10px;
+  border-radius: 15px;
 }
 .header{
     display: grid;
@@ -34,7 +33,6 @@
 .header-headshot{
     border-style: solid;
     border-width: 1px;
-    /* max-width: 160px; */
     grid-row: 2/3;
     grid-column: 2/2;
     scale:1;
@@ -42,17 +40,15 @@
 .menu{
     grid-column: 1/2;
     grid-row: 2/4;
-    /* background-color: teal; */
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     border-top-style: solid;
     border-top-width: 1px;
-    gap:20px;
+    /* gap:20px; */
     overflow: auto;
 }
 .content{
-    /* background-color: gainsboro; */
     grid-column: 2/4;
     grid-row: 1/4;
     border-left-style: solid;
